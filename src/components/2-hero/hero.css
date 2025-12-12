@@ -1,0 +1,99 @@
+/* ===========================
+ table of contents
+==============================
+1. Left Section
+2. Right Section ==> animation*/
+
+section.hero {
+  margin-top: 3rem;
+}
+
+/* ========================
+    1. Left Section
+=========================== */
+section.hero .parent-avatar.flex {
+  align-items: end;
+  gap: 0.6rem;
+  min-height: 88px;
+}
+
+section.hero .left-section {
+  flex-grow: 1;
+}
+
+section.hero .icon-verified {
+  color: var(--blue);
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+}
+
+section.hero .avatar {
+  width: 88px;
+
+  border-radius: 50%;
+  border: 1px solid darkorange;
+  padding: 1px;
+  box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
+}
+
+section.hero h1.title {
+  font-size: 2.85rem;
+  line-height: 3.3rem;
+  margin: 24px 0;
+  color: var(--title);
+}
+
+section.hero p.sub-title {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  line-height: 1.65rem;
+  margin-bottom: 32px;
+}
+
+section.hero .all-icons {
+  font-size: 1.3rem;
+  gap: 1.5rem;
+  color: var(--subtitle);
+}
+
+section.hero .all-icons .icon:hover {
+  font-size: 1.4rem;
+  transition: 0.3s;
+  cursor: pointer;
+  color: var(--icon-hover);
+}
+
+.hero-download-cv-btn {
+  margin-top: 1.5rem;    /* مسافة من الفقرة */
+  margin-bottom: 1.5rem; /* مسافة من الأيقونات */
+  padding: 0.7rem 1.5rem;
+  background-color: #1f8ef1;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;          /* النص والأيقونة في صف واحد */
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.hero-download-cv-btn:hover {
+  background-color: #0d6efd;
+  transform: scale(1.05);
+}
+
+
+/* ===================================
+    2. Right Section ==> animation
+====================================== */
+section.hero .animation {
+  width: 100%;
+  translate: 100px 55px;
+}
+
+@media (max-width: 1250px) {
+  section.hero .animation {
+    display: none;
+  }
+}
