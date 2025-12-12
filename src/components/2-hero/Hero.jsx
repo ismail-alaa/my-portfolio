@@ -43,7 +43,7 @@ const Hero = () => {
         </p>
 
         {/* زرار Download CV مع أيقونة */}
-        <a href="public/CV (2).pdf" download>
+        <a href="/CV-2.pdf" download>
           <button className="hero-download-cv-btn">
             Download CV <FiDownload style={{ marginLeft: "0.5rem" }} />
           </button>
