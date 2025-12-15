@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <p>© 2025 My Portfolio. All rights reserved.</p>
+      <p>© 2025 Ismail Eldeghedy. All rights reserved.</p>
     </footer>
   );
 };

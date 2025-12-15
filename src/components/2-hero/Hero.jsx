@@ -42,14 +42,14 @@ const Hero = () => {
           solutions that delight users. Welcome to my portfolio!
         </p>
 
-        {/* زرار Download CV مع أيقونة */}
+       
         <a href="/CV-2.pdf" download>
           <button className="hero-download-cv-btn">
             Download CV <FiDownload style={{ marginLeft: "0.5rem" }} />
           </button>
         </a>
 
-        {/* أيقونات التواصل الاجتماعي */}
+        
         <div className="all-icons flex">
           <a href="" target="_blank" rel="noopener noreferrer">
             <div className="icon icon-twitter"></div>
